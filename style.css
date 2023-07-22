@@ -1,9 +1,15 @@
-h1, h2, h3 {
+h1, h2, h3, p {
 	font-family: 'Roboto Mono', monospace;
 }
 
 .temp-label {
     font-size: 70px;
+}
+
+.degree-symbol {
+    margin-left: auto;
+    font-size: 20px;
+    padding-bottom: 50px;
 }
 
 .temp-box {
@@ -28,6 +34,12 @@ h1, h2, h3 {
     color: white;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+}
+    
+  
 .input-container {
     display: flex;
     align-items: center;
