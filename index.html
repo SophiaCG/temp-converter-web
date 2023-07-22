@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Russo+One&display=swap" rel="stylesheet">
+
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <div class="temp-box">
+        <div class="left-column">
+            <h2>Enter Temperature</h2>
+            <div class="degree-container">
+                <h3>Degree</h3>
+                <div class="input-container">
+                    <input type="number" class="number-input" placeholder="Enter a number">
+                    <select class="short-select" size="1">
+                        <option value="F">ºF</option>
+                        <option value="C">ºC</option>
+                        <option value="K">K</option>
+                    </select>
+                </div>    
+            </div>
+
+            <h3>Convert In</h3>
+            <select class="long-select" size="1">
+                <option value="fahrenheit">Fahrenheit (ºF)</option>
+                <option value="celsius">Celsius (ºC)</option>
+                <option value="kelvin">Kelvin (K)</option>
+            </select>
+        
+            <div class="button-container">
+                <button class="convert-button">
+                    <h3>Convert</h3>
+                </button>    
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="right-column-container">
+                <h1 class="temp-label">45.57º</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

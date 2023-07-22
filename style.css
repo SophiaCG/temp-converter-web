@@ -1,0 +1,89 @@
+h1, h2, h3 {
+	font-family: 'Roboto Mono', monospace;
+}
+
+.temp-label {
+    font-size: 70px;
+}
+
+.temp-box {
+    display: flex;
+    justify-content: space-between;
+    border: 4px solid #037D84;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 100px 100px 200px 200px;
+}
+
+.left-column {
+    flex: 1;
+    padding: 20px;
+    color: #037D84;
+}
+
+.right-column {
+    flex: 1;
+    padding: 20px;
+    background-color: #037D84;
+    color: white;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
+.degree-container {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.number-input {
+    width: 42.3%;
+    height: 35px;
+}
+
+.short-select {
+    width: 7%;
+    height: 40px;
+}
+
+.long-select {
+    width: 50%;
+    height: 40px;
+}
+
+option {
+    display: inline-block;
+    padding: 5px;
+}
+
+.convert-button {
+    border: none;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #037D84;
+    color: white;
+    cursor: pointer;
+    display: block;
+    line-height: 1;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+.right-column-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
